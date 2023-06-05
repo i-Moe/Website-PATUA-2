@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <title>PATUÁ</title>
+
+
+      <style>
+         html,
+         body {
+           position: relative;
+           height: 100%;
+         }
+     
+         body {
+           background: #eee;
+           font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+           font-size: 14px;
+           color: #000;
+           margin: 0;
+           padding: 0;
+         }
+     
+         swiper-container {
+           width: 100%;
+           height: auto;
+         }
+     
+         swiper-slide {
+           text-align: center;
+           font-size: 18px;
+           background: #fff;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+         }
+     
+         swiper-slide img {
+           display: block;
+           width: 100%;
+           height: auto;
+           object-fit: cover;
+         }
+       </style>
+
+
+
+   </head>
+   <body>
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">PATUÁ</a>
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">Home</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#popular" class="nav__link">About Us</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#choose" class="nav__link">Testimonials</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#products" class="nav__link">Contact Us</a>
+                  </li>
+               </ul>
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-fill"></i>
+               </div>
+            </div>
+            <div class="nav__buttons">
+               <!-- <i class="ri-moon-fill change-theme" id="theme-button"></i> -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-4-fill"></i>
+            </div>
+         </div>
+         </nav>
+      </header>
+
+      <main class="main">
+         <section class="home section" id="home">
+            <!-- <div class="home__bg"></div> -->
+            <div class="home__container container grid">
+
+
+               <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+               centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+               <swiper-slide><img src="assets/img/necklace_1.jpg" alt=""></swiper-slide>
+               <swiper-slide><img src="assets/img/necklace_2.jpg" alt=""></swiper-slide>
+               <swiper-slide><img src="assets/img/necklace_3.jpg" alt=""></swiper-slide>
+               <swiper-slide><img src="assets/img/necklace_4.jpg" alt=""></swiper-slide>
+               <swiper-slide><img src="assets/img/necklace_5.jpg" alt=""></swiper-slide>
+             </swiper-container>
+           
+             <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+           
+
+
+
+
+               <!-- <div class="home__content grid">
+                  <div class="home__data">
+                     <h3 class="home__subtitle">
+                        Embrace the Power of Light
+                     </h3>
+                     <h1 class="home__title">
+                        Illuminating Every Corner<br>
+                        with Elegance
+                     </h1>
+                     <div class="home__buttons">
+                        <a href="#" class="button">
+                           Experience Now
+                        </a>
+                        <a href="#" class="button__link">
+                           <i class="ri-play-fill"></i> Watch Video
+                        </a>
+                     </div>
+                  </div>
+                  <div class="home__info">
+                     <div>
+                        <h3 class="home__info-title">
+                           87K<span>+</span>
+                        </h3>
+                        <span class="home__info-subtitle">
+                           Installations <br> Done
+                        </span>
+                     </div>
+                     <div>
+                        <h3 class="home__info-title">
+                           92K<span>+</span>
+                        </h3>
+                        <span class="home__info-subtitle">
+                           Delighted <br> Customers
+                        </span>
+                     </div>
+                     <div>
+                        <h3 class="home__info-title">
+                           15<span>+</span>
+                        </h3>
+                        <span class="home__info-subtitle">
+                           Years <br> Expertise 
+                        </span>
+                     </div>
+                  </div>
+               </div>
+               <div class="home__image">
+                  <div class="home__blob">
+                     <img src="assets/img/home_lamp.png" alt="home__image" class="home__img">
+                     <h1 class="home__blob-title">LIGHT</h1>
+                  </div>
+                  <div class="home__shadow"></div>
+               </div> -->
+            </div>
+         </section>
+
+         <section class="popular section" id="popular">
+            <div class="popular__container container">
+               <div class="popular__data">
+                  <h2 class="section__title">Spotlight Selections</h2>
+                  <p class="popular__description">
+                     Discover Exceptional Lighting Solutions for Every Space.
+                  </p>
+               </div>
+               <div class="popular__content grid swiper">
+                  <div class="swiper-wrapper">
+                     <article class="popular__card swiper-slide">
+                        <div class="popular__blob">
+                           <img src="assets/img/necklace_1.jpg" alt="popular__image" class="popular__img">
+                        </div>
+
+                        <h3 class="popular__name">Ramsele</h3>
+                        <span class="popular__subtitle">Pendant Lamp</span>
+                        <h3 class="popular__price">
+                           <span>$</span>14
+                        </h3>
+
+                        <button class="popular__button">
+                           <i class="ri-shopping-bag-3-fill"></i>
+                        </button>
+                     </article>
+                     <article class="popular__card swiper-slide">
+                        <div class="popular__blob">
+                           <img src="assets/img/necklace_2.jpg" alt="popular__image" class="popular__img">
+                        </div>
+
+                        <h3 class="popular__name">Vingmast</h3>
+                        <span class="popular__subtitle">Pendant Lamp</span>
+                        <h3 class="popular__price">
+                           <span>$</span>20
+                        </h3>
+
+                        <button class="popular__button">
+                           <i class="ri-shopping-bag-3-fill"></i>
+                        </button>
+                     </article>
+                     <article class="popular__card swiper-slide">
+                        <div class="popular__blob">
+                           <img src="assets/img/necklace_3.jpg" alt="popular__image" class="popular__img">
+                        </div>
+
+                        <h3 class="popular__name">Mojna</h3>
+                        <span class="popular__subtitle">Pendant Lamp</span>
+                        <h3 class="popular__price">
+                           <span>$</span>18
+                        </h3>
+
+                        <button class="popular__button">
+                           <i class="ri-shopping-bag-3-fill"></i>
+                        </button>
+                     </article>
+                     <article class="popular__card swiper-slide">
+                        <div class="popular__blob">
+                           <img src="assets/img/necklace_4.jpg" alt="popular__image" class="popular__img">
+                        </div>
+
+                        <h3 class="popular__name">Vaexjoe</h3>
+                        <span class="popular__subtitle">Pendant Lamp</span>
+                        <h3 class="popular__price">
+                           <span>$</span>16
+                        </h3>
+
+                        <button class="popular__button">
+                           <i class="ri-shopping-bag-3-fill"></i>
+                        </button>
+                     </article>
+                     <article class="popular__card swiper-slide">
+                        <div class="popular__blob">
+                           <img src="assets/img/necklace_5.jpg" alt="popular__image" class="popular__img">
+                        </div>
+                        <h3 class="popular__name">Solklint</h3>
+                        <span class="popular__subtitle">Pendant Lamp</span>
+                        <h3 class="popular__price">
+                           <span>$</span>17
+                        </h3>
+                        <button class="popular__button">
+                           <i class="ri-shopping-bag-3-fill"></i>
+                        </button>
+                     </article>
+                  </div>
+                  <div class="swiper-button-prev">
+                     <i class="ri-arrow-left-circle-fill"></i>
+                  </div>
+                  <div class="swiper-button-next">
+                     <i class="ri-arrow-right-circle-fill"></i>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="join section">
+            <div class="join__container container grid">
+               <div class="join__bg grid">
+                  <div class="join__image">
+                     <div class="join__blob">
+                        <img src="assets/img/join__lamp.png" alt="join__image" class="join__img">
+                        <h1 class="join__blob-title">AMBIENT</h1>
+                     </div>
+                     <div class="join__shadow"></div>
+                  </div>
+                  <div class="join__content grid">
+                     <div class="join__data">
+                        <h2 class="section__title">Get Started</h2>
+                        <p class="join__description">
+                           Do not miss it, join us and get <br>
+                           interesting discounts with us.
+                        </p>
+                     </div>
+                     <form action="#" class="join__form">
+                        <input type="email" placeholder="Enter your email" class="join__input">
+                        <button class="button join__button">
+                           Join Now
+                        </button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div class="footer__content grid">
+               <div>
+                  <a href="#" class="footer__logo"><span>GLO</span>BEAM</a>
+                  <div class="footer__description">
+                     Dedicated to Enlightening the World <br>
+                     with Thoughtfully Balanced Illumination <br>
+                     Across Every Corner of the Globe.
+                  </div>
+               </div>
+            </div>
+            <div class="footer__group">
+               
+               <span class="footer__copy">&#169; Todos os direitos reservados © 2023 PATUÁ.</span>
+            </div>
+         </div>
+      </footer>
+
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <script src="assets/js/scrollreveal.min.js"></script>
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
