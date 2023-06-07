@@ -285,12 +285,12 @@ img {
 
 
 
-swiper-container {
+.home__container swiper-container {
   width: 100%;
   height: auto;
 }
 
-swiper-slide {
+.home__container swiper-container swiper-slide {
   /* align: centext-ter; */
   font-size: 18px;
   background: #fff;
@@ -299,7 +299,7 @@ swiper-slide {
   align-items: center;
 }
 
-swiper-slide img {
+.home__container swiper-container swiper-slide img {
   display: block;
   width: 100%;
   height: auto;
@@ -576,34 +576,33 @@ swiper-slide.testimonial {
 
 }
 
-
-
-
-
-
-
 .person {
   width: 100%;
   display: flex;
   align-items: center;
+  margin-bottom: 0.7rem;
 }
 
 
-.testimonial__img {
-  width: 60px;
-  border-radius: 3rem;
-  margin-bottom: 1rem;
-}
 
-.testimonial__name {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-  margin-bottom: .25rem;
+.testimonial__name{
+  /* font-size: var(--normal-font-size);
+  font-weight: var(--font-medium); */
+  /* margin-bottom: .25rem; */
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 0.25rem;
 }
 
 .testimonial__description {
-  font-size: var(--small-font-size);
+  font-size: 1rem;
+  /* font-size: var(--small-font-size); */
 }
+
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+  bottom: 4px;
+}
+
 
 /* Swiper class */
 .swiper-pagination-bullet {
