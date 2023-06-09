@@ -381,7 +381,7 @@ img {
 }
 
 .about__box {
-  background-color: #0fa47a;
+  background-color: #3a090914;
   border-radius: .75rem;
   padding: .75rem .1rem;
 }
@@ -409,7 +409,7 @@ img {
 
 .about__title {
   font-size: var(--small-font-size);
-  color: #fff;
+  color: #020304;
 }
 
 .about__subtitle {
