@@ -560,6 +560,7 @@ img {
 .work__item img {
   width:60px;
   height:auto;
+  border-style:dotted;
 }
 
 .work__card
