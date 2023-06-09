@@ -179,3 +179,29 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
       clickable: true,
     },
   });
+
+//   <-----WHATSAPP-------->
+
+
+{/* <script>
+  var button = document.getElementById("zapBtn");
+
+  button.addEventListener("click", function() {
+    sendWhatsAppMessage();
+  });
+
+  function sendWhatsAppMessage() {
+    var phoneNumber = "+5517981646780";
+    var message = "Olá!";
+
+    var isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+    if (isMobileDevice) {
+      var url = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+      window.open(url);
+    } else {
+      var url = "https://web.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+      window.open(url);
+    }
+  }
+</script> */}
