@@ -61,8 +61,13 @@
 
             </div>
         </section>
-        <h2>2. Google Drive</h2> <img class = "selos" src = "Readme/google-drive.png">
-        <a href="https://drive.google.com/drive/folders/1E0EJQRcj4TWfn6GGbqm8-sxGLweVQT9r" target="_blank" class="button">Button 1</a>
+
+
+        <div class="title">
+            <h2>2. Google Drive</h2>
+            <img class = "selos" src = "Readme/google-drive.png">
+            <a href="https://drive.google.com/drive/folders/1E0EJQRcj4TWfn6GGbqm8-sxGLweVQT9r" target="_blank" class="button">Button 1</a>
+        </div>
         <p>Aqui estão os ícones das pastas do Google Drive:</p>
         <div class="section-list google">
             <div class="section-list-item">
@@ -81,19 +86,6 @@
         <div class="section-list">
             <div class="section-list-item">
                 <i class="far fa-folder"></i>
-                <p>01 - Identidade Visual</p>
-            </div>
-            <div class="section-list-item">
-                <i class="far fa-folder"></i>
-                <p>02 - Financeiro</p>
-            </div>
-            <div class="section-list-item">
-                <i class="far fa-folder"></i>
-                <p>03 - Social Media</p>
-            </div>
-        </div>
-        <!-- <div class="section-list-item">
-                <i class="far fa-folder"></i>
                 <p>04 - Coleções</p>
             </div>
             <div class="section-list-item">
@@ -103,10 +95,15 @@
             <div class="section-list-item">
                 <i class="far fa-folder"></i>
                 <p>06 - Marketing</p>
-            </div> -->
+            </div>
         </div>
-        <h2>3. Trello</h2> <img class = "selos" src = "Readme/trello.png">
-        <a href="https://trello.com/b/0SUNhU7Q/patua" target="_blank" class="button">Button 1</a>
+
+        </div>
+        <div class="title">
+            <h2>3. Trello</h2>
+            <img class = "selos" src = "Readme/trello.png">
+            <a href="https://trello.com/b/0SUNhU7Q/patua" target="_blank" class="button">Button 1</a>
+        </div>
         <p>Aqui estão os ícones do Trello:</p>
         <div class="section-list">
             <div class="section-list-item">
@@ -122,8 +119,11 @@
                 <p>Tarefa 3</p>
             </div>
         </div>
-        <h2>4. Google Ads</h2> <img class = "selos" src = "Readme/adwords.png">
-        <a href="https://www.google.com" target="_blank" class="button">Button 1</a>
+        <div class="title">
+            <h2>4. Google Ads</h2>
+            <img class = "selos" src = "Readme/adwords.png">
+            <a href="https://www.google.com" target="_blank" class="button">Button 1</a>
+        </div>
         <p>Aqui estão os ícones do Google Ads:</p>
         <div class="section-list">
             <div class="section-list-item">
@@ -139,8 +139,11 @@
                 <p>Anúncio 3</p>
             </div>
         </div>
-        <h2>5. Google Analytics</h2><img class = "selos" src = "Readme/google-analytics.png">
-        <a href="https://analytics.google.com/analytics/web/#/p356007236/reports/intelligenthome" target="_blank" class="button">Button 1</a>
+        <div class="title">
+            <h2>5. Google Analytics</h2>
+            <img class = "selos" src = "Readme/google-analytics.png">
+            <a href="https://analytics.google.com/analytics/web/#/p356007236/reports/intelligenthome" target="_blank" class="button">Button 1</a>
+        </div>
         <p>Aqui estão os ícones da META:</p>
         <div class="section-list">
             <div class="section-list-item">
@@ -241,6 +244,11 @@
         padding-top: 0;
     }
 
+    .title{
+        display: flex;
+        align-items: end;
+    }
+
     .fonts_colors {
         display: flex;
         justify-content: center;
@@ -253,7 +261,9 @@
 
     .selos {
         height: 32px;
-        margin-left: 280px;
+        /* margin-left: 280px; */
+        margin-bottom: 5px;
+        margin-left: 7px;
     }
 
     .font {
@@ -299,14 +309,14 @@
     }
 
     .button {
-        display: flex;
-        margin-top: -2.5rem;
-        margin-left: 400px;
+        /* display: flex; */
+        /* margin-top: -2.5rem; */
+        margin-left: 48px;
         padding: .5rem 1rem;
         background-color: #4f6df5;
         color: #fff;
         text-decoration: none;
-        border-radius: 4px;
+        border-radius: 9px;
         font-weight: bold;
         cursor: pointer;
         width: 150px;
