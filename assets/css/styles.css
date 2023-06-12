@@ -612,8 +612,25 @@ swiper-slide.testimonial {
   padding: 1.25rem 1.5rem;
   border-radius: 1.5rem;
   margin-bottom: 3rem;
+}
+.testimonial__container swiper-container {
+  width: 100%;
+  height: 200px;
+  padding-bottom: 1.7rem;
+}
+.home swiper-slide {
 
-
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .person {

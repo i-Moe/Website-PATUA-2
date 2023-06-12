@@ -31,7 +31,7 @@ const scrollHeader = () =>{
 window.addEventListener('scroll', scrollHeader)
 
 /*=============== SWIPER POPULAR ===============*/
-const popularSwiper = new Swiper('.popular__content', {
+let popularSwiper = new Swiper('.popular__content', {
     // Optional parameters
     slidesPerView: 'auto',
     centeredSlides: true,
