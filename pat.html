@@ -69,7 +69,7 @@
             <a href="https://drive.google.com/drive/folders/1E0EJQRcj4TWfn6GGbqm8-sxGLweVQT9r" target="_blank" class="button">Button 1</a>
         </div>
         <p>Aqui estão os ícones das pastas do Google Drive:</p>
-        <div class="section-list google">
+        <div class="section-list">
             <div class="section-list-item">
                 <i class="far fa-folder"></i>
                 <p>01 - Identidade Visual</p>
@@ -82,8 +82,6 @@
                 <i class="far fa-folder"></i>
                 <p>03 - Social Media</p>
             </div>
-        </div>
-        <div class="section-list">
             <div class="section-list-item">
                 <i class="far fa-folder"></i>
                 <p>04 - Coleções</p>
@@ -295,18 +293,18 @@
     .section-list {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         margin-top: 0rem;
-        margin-right: 150px;
+        /* margin-right: 150px; */
     }
 
-    .section-list.google {
+    /* .section-list.google {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         margin-top: 1rem;
         margin-right: 150px;
-    }
+    } */
 
     .button {
         /* display: flex; */
@@ -333,6 +331,8 @@
         display: flex;
         align-items: center;
         margin-bottom: 1rem;
+        flex-basis: calc(33.33% - 10px);
+        margin: 5px;
     }
 
     .section-list-item i {
