@@ -282,6 +282,10 @@ img {
   object-fit: cover;
 }
 
+.swiper-button-next, .swiper-button-prev {
+  color: #0fa47a;
+}
+
 .ad-line {
   background-color: #0fa47a;
   width: 100%;
@@ -474,13 +478,13 @@ img {
   cursor: pointer;
 }
 
-.swiper-button-prev::after,
-.swiper-button-next::after {
+.coll.swiper-button-prev::after,
+.coll.swiper-button-next::after {
   content: '';
 }
 
-.swiper-button-prev,
-.swiper-button-next {
+.coll.swiper-button-prev,
+.coll.swiper-button-next {
   top: initial;
   bottom: 0.75rem;
   width: 2rem;
@@ -495,18 +499,18 @@ img {
   transition: box-shadow .4s, background .4s;
 }
 
-.swiper-button-prev {
+.coll.swiper-button-prev {
   left: calc(50% - 3rem);
   transition: .4s ease;
 }
 
-.swiper-button-next {
+.coll.swiper-button-next {
   right: calc(50% - 3rem);
   transition: .4s ease;
 }
 
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
+.coll.swiper-button-prev:hover,
+.coll.swiper-button-next:hover {
   color: #fff;
   background-color: #0fa47a;
   /* box-shadow: 0 2px 8px var(--first-color); */
