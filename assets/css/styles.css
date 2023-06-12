@@ -747,21 +747,22 @@ swiper-slide.testimonial {
   font-weight: 600;
   letter-spacing: 0.06rem;
   width: 13rem;
+  transition: all .3s;
 }
 
-/* .contact__button:hover{
-  background-color: var(--green);
-  color: #fff;
+.contact__button:hover{
+  background-color: #058a65;
+  box-shadow: 1px 1px 8px #33333357;
+}
+
+/* .contact__button:hover  {
+  transform: translateX(.25rem);
 } */
 
-.contact__button:hover .contact__button-icon {
-  transform: translateX(.25rem);
-}
-
-.contact__button-icon {
+/* .contact__button-icon {
   font-size: 1rem;
   transition: .4s;
-}
+} */
 
 /*=============== FOOTER ===============*/
 .footer {
