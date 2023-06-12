@@ -315,19 +315,19 @@ img {
 .whatsapp-button {
   position: fixed;
   right: 0;
-  bottom: 4rem;
+  bottom: 3.5rem;
   background-color: #0fa47a;
   border-top: 2px solid #05825f;
   border-left: 2px solid #05825f;
   border-bottom: 2px solid #05825f;
   border-radius: 50% 0 0 50%;
   z-index: 1000;
-  padding: 3px 0px 4px 9px;
+  padding: 3px 0px 4px 7px;
   box-shadow: 1px 3px 6px #33333370;
 }
 
 .whatsapp-button i {
-  font-size: 3.5rem;
+  font-size: 2.7rem;
   color: #fff;
   margin-right: 0.17rem;
 }
