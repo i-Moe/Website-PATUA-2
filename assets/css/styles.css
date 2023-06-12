@@ -282,6 +282,10 @@ img {
   object-fit: cover;
 }
 
+.swiper-button-next, .swiper-button-prev {
+  color: #0fa47a;
+}
+
 .ad-line {
   background-color: #0fa47a;
   width: 100%;
