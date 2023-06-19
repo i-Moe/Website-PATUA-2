@@ -11,14 +11,14 @@
 <body>
     
     <article>
-        <h1 style="font-size: 3rem; text-align: center;">
-            <img src="Readme/just_logo.svg" alt="" style="width: 3rem;">
+        <h1 style="font-size: 3rem; text-align: center; text-shadow: 0 2px 3px #6666667a">
+            <img src="Readme/icon.svg" alt="" style="width: 2rem;">
              SEJA BEM-VINDO!
-            <img src="Readme/just_logo.svg" alt="" style="width: 3rem;">
+            <img src="Readme/icon.svg" alt="" style="width: 2rem;">
         </h1>
-        <h2 style="text-align: center; margin-top: 0.7rem; font-size: 1.7rem; color: #069B81; ">
+        <!-- <h2 style="text-align: center; margin-top: 0.7rem; font-size: 1.7rem; color: #069B81; ">
             - いらっしゃいませ -
-        </h2>
+        </h2> -->
         <h1>Guia de Instruções</h1>
         <p> Este arquivo reúne as informações mais importantes do seu projeto. Ele contém botões que facilitam o acesso rápido às plataformas utilizadas. </p>
         <h2>1. Manual de identidade</h2>
@@ -80,7 +80,7 @@
         <h3>Preservamos a essência do logo original ao aprimorá-lo cuidadosamente. Cada elemento foi refinado para destacar a identidade da marca. O resultado é um logo renovado e moderno, que mantém a autenticidade do original. A idéia é fortalecer a marca e consequentemente a empresa perante ao mercado.</h3>
         <div class="title">
             <h2>2. Website</h2>
-            <img class = "selos" src = "Readme/color_nobg.svg">
+            <img class = "selos" src = "Readme/icon.svg">
             <a href="https://www.magosdotrafego.com.br" target="_blank" class="button">Acessar</a>
         </div>
         <p> O Google Search Console é o responsável pela indexação das páginas no Google. Dessa forma, o site pode ser oferecido como resultado para os usuários que pesquisam assuntos relacionados. O Page Speed Insights garante o desempenho e a performance da página, que são fundamentais. O Mobile Friendly Test assegura que a experiência e navegabilidade do usuário na página sejam agradáveis e intuitivas.</p>
@@ -190,9 +190,11 @@
                 <p>Métrica 3</p>
             </div>
         </div> -->
-        <h3> Contatos </h3>
-            <a href="https://wa.me/5517981646780" target="_blank" class="button" style = "background-color: #069B81;">Whatsapp </a>
-            <i class = "fab fa-whatsapp"></i>
+        <h3 style="margin-bottom: 1rem;"> Contatos </h3>
+            <a href="https://wa.me/5517981646780" target="_blank" class="button whatsapp" style = "background-color: #069B81; padding: 0.9rem 1.5rem; margin-left: 12px;">
+                Whatsapp
+                <i class = "fab fa-whatsapp" style="vertical-align: text-bottom; margin-left: 0.1rem; font-size: 1.8rem;"></i>
+            </a>
             <p>Email: cmidiapaga01@gmail.com</p>
     </article>
 </body>
@@ -363,6 +365,10 @@
 
     .button:hover {
         background-color: #375ac4;
+    }
+
+    .button.whatsapp:hover {
+        background-color: #04806a;
     }
 
     .section-list-item {
